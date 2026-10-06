@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Company Website</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        /* Navigation */
+        nav {
+            height: 60px;
+            background-color: #d38bb8;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+        .logo {
+            width: 100px;
+        }
+
+        .logo img {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+        }
+
+        .links {
+            display: flex;
+            gap: 50px;
+        }
+
+        .links span {
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .links span:hover {
+            color: rgb(38, 44, 84);
+        }
+
+        .menu {
+            font-size: 25px;
+            cursor: pointer;
+        }
+
+        /* Cards */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            padding: 18px 14px;
+        }
+
+        .card {
+            width: calc(33.33% - 8px);
+            border: 1px solid black;
+            border-radius: 5px;
+            overflow: hidden;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px gray;
+        }
+
+        .card img {
+            width: 100%;
+            height: 175px;
+            object-fit: cover;
+        }
+
+        .content {
+            text-align: center;
+            padding: 18px 7px 7px;
+        }
+
+        .date {
+            color: orange;
+            font-size: 11px;
+        }
+
+        h3 {
+            color: orange;
+            font-size: 13px;
+            margin: 5px;
+        }
+
+        .description {
+            font-size: 11px;
+            text-align: justify;
+        }
+
+        /* Button */
+        button {
+            background-color: #ffe1bd;
+            border: none;
+            padding: 7px 12px;
+            border-radius: 7px;
+            font-size: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: orange;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+
+        <div class="logo">
+            <img src="logo.jpg" alt="Company Logo">
+        </div>
+
+        <div class="links">
+            <span>About</span>
+            <span>Services</span>
+            <span>Contact</span>
+        </div>
+
+        <div class="menu">
+            ☰
+        </div>
+
+    </nav>
+
+
+    <!-- Cards -->
+    <div class="container">
+
+        <div class="card">
+            <img src="mountain.jpg">
+
+            <div class="content">
+                <div class="date">4 Days To Go</div>
+                <h3>Post One</h3>
+
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Totam, minus placeat architecto, delectus quia commodi
+                    suscipit ipsam sapiente dolor, reiciendis modi magnam ex
+                    quos ea! Autem voluptate temporibus ratione culpa.
+                </p>
+
+                <button>View More</button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="mountain.jpg">
+
+            <div class="content">
+                <div class="date">4 Days To Go</div>
+                <h3>Post One</h3>
+
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Totam, minus placeat architecto, delectus quia commodi
+                    suscipit ipsam sapiente dolor, reiciendis modi magnam ex
+                    quos ea! Autem voluptate temporibus ratione culpa.
+                </p>
+
+                <button>View More</button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="mountain.jpg">
+
+            <div class="content">
+                <div class="date">4 Days To Go</div>
+                <h3>Post One</h3>
+
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Totam, minus placeat architecto, delectus quia commodi
+                    suscipit ipsam sapiente dolor, reiciendis modi magnam ex
+                    quos ea! Autem voluptate temporibus ratione culpa.
+                </p>
+
+                <button>View More</button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="mountain.jpg">
+
+            <div class="content">
+                <div class="date">4 Days To Go</div>
+                <h3>Post One</h3>
+
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Totam, minus placeat architecto, delectus quia commodi
+                    suscipit ipsam sapiente dolor, reiciendis modi magnam ex
+                    quos ea! Autem voluptate temporibus ratione culpa.
+                </p>
+
+                <button>View More</button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="mountain.jpg">
+
+            <div class="content">
+                <div class="date">4 Days To Go</div>
+                <h3>Post One</h3>
+
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Totam, minus placeat architecto, delectus quia commodi
+                    suscipit ipsam sapiente dolor, reiciendis modi magnam ex
+                    quos ea! Autem voluptate temporibus ratione culpa.
+                </p>
+
+                <button>View More</button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="mountain.jpg">
+
+            <div class="content">
+                <div class="date">4 Days To Go</div>
+                <h3>Post One</h3>
+
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Totam, minus placeat architecto, delectus quia commodi
+                    suscipit ipsam sapiente dolor, reiciendis modi magnam ex
+                    quos ea! Autem voluptate temporibus ratione culpa.
+                </p>
+
+                <button>View More</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
